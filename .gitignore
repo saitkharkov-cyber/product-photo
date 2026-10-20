@@ -1,0 +1,38 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Working image folders
+input/*
+output/*
+manual-output/*
+manual-mask/*
+
+# Keep empty folders in Git
+!input/.gitkeep
+!output/.gitkeep
+!manual-output/.gitkeep
+!manual-mask/.gitkeep
+
+# Temporary files
+*.tmp
+*.log
+
+# Compare images
+compare/original/*
+compare/output/*
+
+!compare/original/.gitkeep
+!compare/output/.gitkeep
